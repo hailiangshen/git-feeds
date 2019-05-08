@@ -1,0 +1,14 @@
+{
+  "name": "git-feeds",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:hailiangshen/git-feeds.git",
+  "author": "hailiang <neightboy@163.com>",
+  "license": "MIT",
+  "dependencies": {
+    "feedparser": "^2.2.9",
+    "htmlparser2": "^3.10.1",
+    "iconv-lite": "^0.4.24",
+    "request": "^2.88.0"
+  }
+}
