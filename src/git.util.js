@@ -36,6 +36,7 @@ class GitUtil{
 
 module.exports = {
     getUtil(repositoryPath) {
+        console.info(`feed at ${repositoryPath}`)
         return new GitUtil(repositoryPath)
     }
 };
